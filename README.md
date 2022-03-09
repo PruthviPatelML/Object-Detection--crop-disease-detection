@@ -3,9 +3,10 @@
 Convolutional Neural Network is very efficient in terms of processing a large amount of data in very less time. We are using the CNN model along with object detection
 techniques for the processing of the image data of leaf, stem, root, fruits etc. parts of the crop which are infected from diseases and pest. Using deep learning approach, object
 detection techniques with convolutional neural networks, the objectives can be summarized as:
-• To detect the crop disease from the images of all parts of the infected crop.
-  o The images in the dataset will be laboratory condition as well as field condition.
-  o The images with heterogeneous background will also be considered.
+
+- To detect the crop disease from the images of all parts of the infected crop.
+  - The images in the dataset will be laboratory condition as well as field condition.
+  - The images with heterogeneous background will also be considered.
 • Detecting location of disease or pest.
 • Detection of the various kinds of pests.
 • To detect the severity of disease.
@@ -21,6 +22,8 @@ So,the scope of the work includes,
 ![image](https://user-images.githubusercontent.com/85123149/157534216-534bc107-f737-4b20-aa00-cb3e403837fe.png)
 
 The following shows workflow:
+
+
 ![image](https://user-images.githubusercontent.com/85123149/157534344-3f3c07f2-b9bc-41a3-a2d2-c11c42ab4d09.png)
 
 The proposed methodology is implemented on various types of object detection models using infected different parts of the crop and pests along with the severity. Comparison of object detection algorithms with different types of CNNs is made and as results are shown that currently the best suitable model is Faster R-CNN with ResNet101 which has highest Average Precision with IoU=0.50 (0.907) and execution time is also not much (5048s). For the future work, various crop types can be added in the dataset to get more generalized dataset and to get more accurate model. Also, more object detection algorithms will be tested on dataset like Mask R-CNN, YOLO.
